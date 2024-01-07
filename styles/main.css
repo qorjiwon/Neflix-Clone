@@ -1,0 +1,50 @@
+.main_movie {
+    padding : 15px 20px 0 20px;
+    
+}
+
+.main_movie_poster{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.main_movie_info {
+    position: absolute;
+    top: 150px;
+    left: 40px;
+
+}
+
+.main_movie_title {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.main_movie_buttons {
+}
+
+.play,
+.my-list {
+    border: none;
+    background-color: rgba(128, 128, 128, 0.3);
+    color: white;
+    height: 33px;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+.play {
+    width: 100px;
+    margin-right: 18px;
+}
+
+.my-list {
+    width: 130px;
+
+}
+
+.main_movie_plot {
+    font-size: 14px;
+    font-weight: 600;
+}
