@@ -42,18 +42,19 @@
     font-weight: 700;
 }
 
-.main_movie_buttons {
-    margin-top: 3px;
-}
 
-.play,
-.my-list {
+.main_movie_buttons button{
+    margin-top: 3px;
     border: none;
     background-color: rgba(128, 128, 128, 0.3);
     color: white;
     height: 34px;
     border-radius: 3px;
     font-weight: 700;
+}
+
+.main_movie_buttons button:hover {
+    background-color: rgba(128, 128, 128, 0.6);
 }
 
 .play {

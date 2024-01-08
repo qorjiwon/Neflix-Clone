@@ -53,19 +53,13 @@
 }
 
 @media (min-width: 751px) and (max-width: 999px) {
-    .movie-grid {
+    .movie_grid {
         grid-template-columns: repeat(5, 1fr);
     }
 }
 
-@media (min-width: 1000px) and (max-width: 1199px) {
-    .movie-grid {
-        grid-template-columns: repeat(6, 1fr);
-    }
-}
-
-@media (min-width: 1000px) {
-    .movie-grid {
+@media (min-width: 1370px) {
+    .movie_grid {
         grid-template-columns: repeat(7, 1fr);
     }
 }
