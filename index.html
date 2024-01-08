@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="styles/general.css"/>
     <link rel="stylesheet" href="styles/header.css"/>
     <link rel="stylesheet" href="styles/main.css"/>
-    <link rel="stylesheet" href="styles/side.css"/>
+    <link rel="stylesheet" href="styles/movie.css"/>
+    <link rel="manifest" href="manifest.webmanifest">
 </head>
 <body>
     <header class="header">
@@ -20,9 +21,11 @@
             </div>
         </nav>
     </header>
-    <main>
-        <section class="main_movie">
-            <img src="assets/images/main_poster.webp" class="main_movie_poster">
+    <main class="main">
+        <div class="main_movie">
+            <div class="main_movie_poster">
+                <img src="assets/images/main_poster.webp">
+            </div>
             <div class="main_movie_info">
                 <div class="main_movie_title">
                     Money Heist
@@ -39,13 +42,36 @@
                     </p>
                 </div>
             </div>
-        </section>
-        <section class="video-grid">
-            <div class="Nefilx_originals">
+        </div>
+        <div class="movie_categories">
+            <div class="movies">
                 <p>NETLIFX ORIGINALS</p>
+                <div class="movie_grid">
+                    <img class="poster" src="assets/images/thumbnails_1.webp">
+                    <img class="poster" src="assets/images/thumbnails_2.webp">
+                    <img class="poster" src="assets/images/thumbnails_3.webp">
+                    <img class="poster" src="assets/images/thumbnails_4.webp">
+                    <img class="poster" src="assets/images/thumbnails_5.webp">
+                    <img class="poster" src="assets/images/thumbnails_6.webp">
+                    <img class="poster" src="assets/images/thumbnails_7.webp">
+                </div>
             </div>
-            <
-        </section>
+            <div class="movies">
+                <p>Trending Now</p>
+                <div class="movie_grid">
+                    <img class="poster" src="assets/images/thumbnails_1.webp">
+                    <img class="poster" src="assets/images/thumbnails_2.webp">
+                    <img class="poster" src="assets/images/thumbnails_3.webp">
+                    <img class="poster" src="assets/images/thumbnails_4.webp">
+                    <img class="poster" src="assets/images/thumbnails_5.webp">
+                    <img class="poster" src="assets/images/thumbnails_6.webp">
+                    <img class="poster" src="assets/images/thumbnails_7.webp">
+                    </div>
+                </div>
+            </div>
+                
+            </div>
+        </div>
     </main>
 </body>
 </html>
